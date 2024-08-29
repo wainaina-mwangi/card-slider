@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(32, 14, 14),rgb(25, 92, 236)),url(../assets/bg.jpeg);
+    /* background: url(../assets/pexels-photo-4585184.webp) #200e0e; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item{
+    color: #fff;
+    width: 300px;
+    padding: 35px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.card-list .card-item  .user-image{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     margin-bottom: 40px;
+     color: #e3e3e3;
+     border: 5px solid white;
+     padding: 4px;
+}
+
+
+
+.card-list .card-item .user-proffession{
+    font-size: 1.15rem;
+    margin: 10px 0 30px;
+    font-weight: 500;
+}
+
+
+.card-list .card-item .msg-btn{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #200e0e;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 2px solid transparent;
+    transition:  0.2s ease;
+}
+
+.card-list .card-item .msg-btn:hover{
+    background:rgba(255, 255, 255, 0.418);
+   border: 2px solid #e3e3e3;
+}
+
+
+
+.swiper-button-prev{
+  color: #ffffff;
+}
+
+
+.swiper-button-next{
+    color: #ffffff;
+    /* background-color: #200e0e; */
+    /* border-radius: 50%;
+    padding: 20px 30px;
+    font-size: small; */
+}
+
+.swiper-pagination{
+  color: #e3e3e3;
+}
